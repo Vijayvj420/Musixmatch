@@ -1,143 +1,98 @@
+*{
+    margin: 0px;
+    margin-right: 0px;
+}
 
-.iconbtn{
-   background-color: rgb(10, 5, 0);
-    color: rgb(252, 248, 248);
-    border-radius: 100px;
-    padding: 5px 20px;
-   text-align: center;
-    font-size: 15px;
-    cursor: pointer;}
-
-    
-
-    nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-        nav ul{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            list-style-type: none;
-            width: 40%; 
-            font-weight: bold;
-        }
-        .h1{padding-top: 100px;
-            font-weight: bold;
-            font-size: 80px;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            }
-            main,.Partners,.Artists,.Publishers,.Podcasters{
-                display: flex;
-                align-items: center;
-                justify-content: center;}
-
-                
-    .Partners,.Artists,.Publishers,.Podcasters{
+.logo{
+    margin-top: 10px;
+    margin-left:  10px; ;
+}
+nav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    width: 280px; 
-    cursor: pointer;}
+    background-color: rgb(191, 139, 55);
+}
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    width: 35%;
+    margin-right: 50px;
+}
+.rbtn{
+    background-color: rgb(219, 95, 95);
+    color:white; 
+    padding: 5px;
+    border-radius: 7px;
+}
+.showcase{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+.videoin{
+    position: absolute;
+    height: 100%; width: 100%;
+    
+}
+.videocon{
+    
+    margin-top: 90px; 
+    z-index: 1;
+}
+.head{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.benbtn,.cendbtn,.conbtn{
+    background-color: rgb(25, 38, 7);
+    font-size: large;
+    color:white;
+    border-radius: 8px;
+    padding: 4px;
+    border-right: 5px;
+    border-bottom: 5px;
 
-    .Partners ul,.Artists ul,.Publishers ul,.Podcasters ul {
-        list-style-type: none;
-    }
-    main{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    h3{
-        color: orangered;
-    }
-
-    .pic1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-        cursor: pointer;}
-
-        .pic2{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin: 150px;
-            margin-top: 40px;
-           margin-bottom: 20px;
-            cursor: pointer;}
-
-            img{
-                border-radius: 3%;
-                border: 1px;
-                box-shadow: 1px;}
-
-                .see{
-                    color: black;
-                    font-size: larger;
-                    background-color: whitesmoke;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: 50px;
-                    border-radius: 10px;
-                    padding: 10px 20px;
-                    cursor: pointer;}
-                    
-                    .pr{
-                        color: black;
-                        font-size: 23px;
-                        font-style: inherit;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;}
-
-                        .a1,.a2{
-                            height: 50px; width: 150;
-                            cursor: pointer;
-                        }
-                        .last,.last1{
-                            display: flex;
-                            align-items: center;
-                            justify-content: center; 
-                        }
-                        .in{
-                            display: flex;
-                            align-items: center;
-                            justify-content: space-between; 
-                           
-                        } 
-                        .box{
-                            background: orangered;
-                            width: 50%;
-                            height: 300px;
-                            margin-top: 100px;
-                            text-align: center;
-                            color: aliceblue;
-                        }
-                        .box1{
-                            width: 50%;
-                            height: 300px;
-                            margin-top: 100px;
-                            text-align: center;
-                            color: rgb(15, 15, 15);
-                            background-color: rgb(245, 197, 205);
-                        }
-                        button{
-                            background-color: rgb(241, 234, 226);
-                            color: rgb(14, 13, 13);
-                            border-radius: 50px;
-                           text-align: center;
-                           font-style: oblique;
-                            font-size: 15px;
-                            padding: 10px;
-                            cursor: pointer;
-                        }
-                        
-                    
+}
+.mid-sec{
+    margin-top: 800px;
+}
+.benst1,.censt1{
+    margin-left: 300px;
+}
+.benpic1,.benpic2{
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.st-1::first-letter{
+    color: rgb(84, 148, 207);
+    font-size: 60px;
+    margin-left: 80px;
+}
+.st-2::first-letter{
+    color:rgb(243, 81, 81);
+    font-size: 60px;
+    margin-left: 40px;
+}
+.cienpic-1,.cienpic-2{
+    margin-left: 500px;
+}
+.st-1 ,.st-1-2,.st-1-3,.st-2-1,.st-2-2,.st-2{
+    line-height: 1.5;
+}
+.back-1,.back-2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfs3n_whx_PTZWvDaNXmdoPeTFNWg050EcQA&shttps://mrwallpaper.com/images/high/fall-guys-x-ben-10-jrlmk287qtfstjk3.jpghttps://img.freepik.com/free-vector/swamp-night-city-park-with-reed-grass-cartoon-vector-water-pond-near-metal-fence-dark-environment-nature-scenery-outdoor-panoramic-landscape-with-full-moon-light-neon-urban-skyline_107791-21664.jpg);
+    
+}
+#foot{
+    text-align: center;
+    background-color:rgb(201, 139, 41) ;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
